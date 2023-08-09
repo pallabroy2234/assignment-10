@@ -1,10 +1,25 @@
 Next js Folder  structure :
 
 
-src = SRC directory in next js is the location where all of your application's source code is stored. This directory is where you will create your components, pages, style, and any other files that make up your next js project.
+src => SRC directory in next js is the location where all of your application's source code is stored. This directory is where you will create your components, pages, style, and any other files that make up your next js project.
 
-app =App directory is used for handling routes and rendering views in Next.js, and it is built to make the most out of React concurrent features. The app directory works alongside the pages directory to allow for incremental adoption. It supports shared layouts, nested routing, loading states, error handling, and more.
+app => App directory is used for handling routes and rendering views in Next.js, and it is built to make the most out of React concurrent features. The app directory works alongside the pages directory to allow for incremental adoption. It supports shared layouts, nested routing, loading states, error handling, and more.
 
+globals.css => Define your global css in this file.
 
+layout.js => It's an entry-level file in your next application. This file is executed first when you run the application.
 
+page.js => This js file defines your route. By default, it's your home page or route.
+
+page.module.css => This css file defines your page.js css. When you see a file name module.css then you think that it's a particular css file for a particular component file.
+
+ 
 public= Public directory holds on your static assets.
+
+
+.gitignore => .gitignore file is a configuration file used in Git repositories to specify files and directories that should be ignored by Git when tracking changes and syncing with remote repositories.
+
+jsconfig.json => The jsconfig.js file in a Next.js application is used to configure the JavaScript module system for your project. It can be used to customize how module paths are resolved and improve the development experience. 
+
+
+next.config.js => The next.config.js file is a configuration file used in Next.js projects to customize various aspects of the build and development process. It allows you to extend or override default settings, add plugins, set environment variables, and more.
